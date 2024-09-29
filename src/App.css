@@ -1,0 +1,83 @@
+html,
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-login-page {
+  height: 100vh;
+  overflow: hidden;
+  background: #e5e5e5;
+}
+
+.main-login-page .inner-login-page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+
+
+.main-login-page .inner-login-page {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  justify-content: center;
+  height: 100%;
+}
+
+.white-box {
+  background: #fff;
+  display: grid;
+  align-items: center;
+  padding: 40px 40px;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  box-sizing: border-box;
+}
+
+.white-box .right-side-main {
+  height: 100%;
+  background: #e5e5e5;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+
+.text-heading-main {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.small-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-login-main .classInput-email {
+  margin-bottom: 20px;
+}
+
+.form-login-main .classInput-email input {
+  padding: 17px 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button.login-btn {
+  width: 100%;
+  padding: 20px;
+  background: #1c468a;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
